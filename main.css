@@ -9,6 +9,7 @@ body {
 
 .container-fluid {
 	background-color: #E0F5FF;
+
 }
 
 .container {
@@ -117,7 +118,7 @@ iframe {
 	margin-top: 30px;
 	margin-left: 20px;
 	padding-right: 0;
-	font-size: 1.3em;
+	font-size: 18px;
 
 }
 
@@ -156,3 +157,9 @@ li:hover {
 		width: 100%;
 	}
 }
+
+nav {
+	height: 5%;
+	
+}
+

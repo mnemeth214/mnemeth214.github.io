@@ -2,58 +2,78 @@
 <html lang="en">
 	<head>
 		<title>Melissa's Page</title>
-		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<script src="jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
 	</head>
 	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Elan Logo</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        
+		        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Benefits</a></li>
+		        <li><a href="#">Testimonials</a></li>
+		        <li><a href="#">Contact</a></li>
+		      </ul>
+		    
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
 		<div class="container">
 			<div class="row" id="row-1">
 				<div class="col-md-12" id="banner">
 					<h1>This is the Home Page/Banner</h1>
 				</div>
 			</div>
-			<div class="row" id="tabs">
-				<div class="col-md-12" id="tabs-col">
-					<div class="col-md-2" id="text-align" style="width: 7%;"></div>
-					<div class="col-md-2" id="text-align">
-						<a class="a" href="index.html">Home</a>
-					</div>
-					<div class="col-md-2" id="text-align">
-						<a class="a" href="#">About</a>
-					</div>
-					<div class="col-md-2" id="text-align">
-						<a class="a" href="#">Benefits</a>
-					</div>
-					<div class="col-md-2" id="text-align">
-						<a class="a" href="#">Testimonials</a>
-					</div>
-					<div class="col-md-2" id="text-align">
-						<a class="a" href="#">Contact</a>
-					</div>
-				</div>
-			</div>
+			
 			<div class="row" id="row-2">
-				<div class="col-md-12">
-					<iframe id="home-vid" width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
+				<div class="col-md-5" style="max-width:90%">
 					<p class="hello">This is a random line of text that is a placeholder for the real text....coming soon! This is a random line of text that is a placeholder for the real text....coming soon!This is a random line of text that is a placeholder for the real text....coming soon!This is a random line of text that is a placeholder for the real text....coming soon!This is a random line of text that is a placeholder for the real text....coming soon!This is a random line of text that is a placeholder for the real text....coming soon!This is a random line of text that is a placeholder for the real text....coming soon!This is a random line of text that is a placeholder for the real text....coming soon!This is a random line of text that is a placeholder for the real text....coming soon!</p>
-
+				</div>
+				<div class="col-md-7 embed-responsive-item" id="home-vid">
+					
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
+					
 				</div>
 			</div>
 			<div class="row" id="row-3">
-				<div class="col-md-5">
-					<img class="img-responsive" src="http://placehold.it/450x250">
+				<div class="col-md-1"></div>
+				<div class="col-md-5" id="img-col">
+					<img class="img-responsive" src="http://placehold.it/450x250"/>
 				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-5">
-					<img class="img-responsive" src="http://placehold.it/450x250">
+				<div class="col-md-5" id="img-col">
+					<img class="img-responsive" src="http://placehold.it/450x250" id="pic-right"/>
 				</div>
+				<div class="col-md-1"></div>
 			</div>
 			<div class="row" id="row-4">
 				<div class="col-md-12" id="footer-col">
 					<h3 class="foot">This is the footer.</h3>
 				</div>
 			</div>
+
 		</div>
 		
 	</body>
+
 </html>
